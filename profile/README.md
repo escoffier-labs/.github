@@ -32,6 +32,7 @@ Brigade keeps agent loops receipted, reviewed, and portable. The supporting Esco
 - [Mise en Scene](https://github.com/escoffier-labs/mise-en-scene) - turns source material into self-contained interactive HTML/SVG technical explainers.
 - [Plating](https://github.com/escoffier-labs/plating) - reproducible, sanitized terminal-demo SVGs for READMEs and websites.
 - [Escoffier Fleet Kit](https://github.com/escoffier-labs/escoffier-fleet-kit) - shared theme, OG cards, and hands-off publishing for the Escoffier Labs website fleet.
+- [tokenjuice](https://github.com/escoffier-labs/tokenjuice) - deterministic output compaction that trims terminal noise before it hits agent context; a maintained fork of vincentkoc/tokenjuice.
 
 ## Evidence stack
 
