@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/escoffier-labs-banner.jpg" alt="Escoffier Labs banner: a chef at the pass ringing the service bell" width="900">
+</p>
+
 # Escoffier Labs
 
 Home of [Brigade](https://brigade.tools), the local operator layer for AI agents.
