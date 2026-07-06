@@ -6,7 +6,7 @@
 
 Home of [Brigade](https://brigade.tools), the local operator layer for AI agents.
 
-Brigade keeps agent loops receipted, reviewed, and portable. The supporting Escoffier Labs tools provide the stations around it: agent skills, code search, sealed secrets, content checks, source capture, session history, notifications, screenshots, and durable workflow records.
+Brigade keeps agent loops receipted, reviewed, and portable. The supporting Escoffier Labs tools provide the stations around it: agent skills, code search, sealed secrets, content checks, an evidence ledger of past work, notifications, screenshots, and durable workflow records.
 
 ## Flagship
 
@@ -32,7 +32,6 @@ Brigade keeps agent loops receipted, reviewed, and portable. The supporting Esco
 - [Code Search MCP](https://github.com/escoffier-labs/code-search-mcp) - read-only MCP server and OpenClaw plugin for Code Search API.
 - [GraphTrail](https://github.com/escoffier-labs/graphtrail) - local code-graph CLI and read-only MCP server: callers, callees, impact, and context across a codebase.
 - [Usage Tracker](https://github.com/escoffier-labs/usage-tracker) - token usage and cost analytics for OpenClaw sessions across models.
-- [Upstream Drift](https://github.com/escoffier-labs/upstream-drift) - LLM-summarized diffs of the upstream repos that affect your MCP servers, with weekly Discord digests.
 - [Mise en Scene](https://github.com/escoffier-labs/mise-en-scene) - turns source material into self-contained interactive HTML/SVG technical explainers.
 - [Plating](https://github.com/escoffier-labs/plating) - reproducible, sanitized terminal-demo SVGs for READMEs and websites.
 - [Escoffier Fleet Kit](https://github.com/escoffier-labs/escoffier-fleet-kit) - shared theme, OG cards, and hands-off publishing for the Escoffier Labs website fleet.
@@ -40,9 +39,7 @@ Brigade keeps agent loops receipted, reviewed, and portable. The supporting Esco
 
 ## Evidence stack
 
-- [MiseLedger](https://github.com/escoffier-labs/miseledger) - local-first evidence ledger for AI work history.
-- [StationTrail](https://github.com/escoffier-labs/stationtrail) - portable local station and agent-session history.
-- [SourceHarvest](https://github.com/escoffier-labs/sourceharvest) - source capture for archive, search, and evidence workflows.
+- [MiseLedger](https://github.com/escoffier-labs/miseledger) - local-first evidence ledger for AI work history, with built-in session, file, git, and chat crawlers (the former StationTrail and SourceHarvest exporters, now absorbed).
 
 ## Start here
 
