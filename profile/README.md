@@ -6,7 +6,7 @@
 
 Home of [Brigade](https://brigade.tools), the local operator layer for AI agents.
 
-Brigade keeps agent loops receipted, reviewed, and portable. The supporting Escoffier Labs tools provide the stations around it: agent skills, code search, sealed secrets, content checks, an evidence ledger of past work, notifications, screenshots, and durable workflow records.
+Brigade keeps agent loops receipted, reviewed, and portable. The supporting Escoffier Labs tools provide the stations around it: agent skills, code search, sealed secrets, an evidence ledger of past work, notifications, screenshots, and durable workflow records. Publish-safety scanning ships inside Brigade itself (`brigade scrub` / `brigade guard`).
 
 ## Flagship
 
@@ -22,7 +22,6 @@ Brigade keeps agent loops receipted, reviewed, and portable. The supporting Esco
 - [Agent Pantry](https://github.com/escoffier-labs/agentpantry) - secure browser session and secret sync for agent machines.
 - [Memory Doctor](https://github.com/escoffier-labs/memory-doctor) - maintenance CLI for the Claude Code and OpenClaw memory systems.
 - [Bootstrap Doctor](https://github.com/escoffier-labs/bootstrap-doctor) - audits and trims oversize OpenClaw prefix files into reference cards.
-- [Content Guard](https://github.com/escoffier-labs/content-guard) - policy checks before content leaves the kitchen.
 - [Agent Notify](https://github.com/escoffier-labs/agent-notify) - privacy-first push notifications for AI coding agents.
 - [Cloche](https://github.com/escoffier-labs/cloche) - agent-neutral app screenshot capture.
 
@@ -39,7 +38,7 @@ Brigade keeps agent loops receipted, reviewed, and portable. The supporting Esco
 
 ## Evidence stack
 
-- [MiseLedger](https://github.com/escoffier-labs/miseledger) - local-first evidence ledger for AI work history, with built-in session, file, git, and chat crawlers (the former StationTrail and SourceHarvest exporters, now absorbed).
+- [MiseLedger](https://github.com/escoffier-labs/miseledger) - local-first evidence ledger for AI work history, with built-in session, file, git, and chat crawlers (`miseledger crawl ...`; the former StationTrail and SourceHarvest exporters are absorbed and archived).
 
 ## Start here
 
