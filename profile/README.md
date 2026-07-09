@@ -38,7 +38,7 @@ Brigade keeps agent loops receipted, reviewed, and portable. The supporting Esco
 
 ## Evidence stack
 
-- [MiseLedger](https://github.com/escoffier-labs/miseledger) - local-first evidence ledger for AI work history, with built-in session, file, git, and chat crawlers (`miseledger crawl ...`; the former StationTrail and SourceHarvest exporters are absorbed and archived).
+- [MiseLedger](https://github.com/escoffier-labs/miseledger) - local-first evidence ledger for AI work history. Built-in crawlers only: `miseledger crawl sessions|files|gitlog|...` (no separate exporter tools). StationTrail and SourceHarvest were absorbed in v0.3.0 and are archived.
 
 ## Start here
 
