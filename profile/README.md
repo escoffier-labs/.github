@@ -27,9 +27,8 @@ Brigade keeps agent loops receipted, reviewed, and portable. The supporting Esco
 
 ## Dev tools
 
-- [Code Search API](https://github.com/escoffier-labs/code-search-api) - local semantic code search with Ollama embeddings, SQLite, and hybrid search.
-- [Code Search MCP](https://github.com/escoffier-labs/code-search-mcp) - read-only MCP server and OpenClaw plugin for Code Search API.
 - [GraphTrail](https://github.com/escoffier-labs/graphtrail) - local code-graph CLI and read-only MCP server: callers, callees, impact, and context across a codebase.
+- [Code Search API](https://github.com/escoffier-labs/code-search-api) - local semantic code search with Ollama embeddings, SQLite, and hybrid search.
 - [Usage Tracker](https://github.com/escoffier-labs/usage-tracker) - token usage and cost analytics for OpenClaw sessions across models.
 - [Mise en Scene](https://github.com/escoffier-labs/mise-en-scene) - turns source material into self-contained interactive HTML/SVG technical explainers.
 - [Plating](https://github.com/escoffier-labs/plating) - reproducible, sanitized terminal-demo SVGs for READMEs and websites.
