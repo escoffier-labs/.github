@@ -22,12 +22,12 @@ Brigade keeps agent loops receipted, reviewed, and portable. The supporting Esco
 - [Agent Pantry](https://github.com/escoffier-labs/agentpantry) - secure browser session and secret sync for agent machines.
 - [Memory Doctor](https://github.com/escoffier-labs/memory-doctor) - maintenance CLI for the Claude Code and OpenClaw memory systems.
 - [Bootstrap Doctor](https://github.com/escoffier-labs/bootstrap-doctor) - audits and trims oversize OpenClaw prefix files into reference cards.
-- [Agent Notify](https://github.com/escoffier-labs/brigade/tree/main/stations/notify) - privacy-first push notifications for AI coding agents (`stations/notify/` in Brigade; install via `brigade setup`).
+- [Agent Notify](https://github.com/escoffier-labs/brigade/tree/main/stations/notify) - privacy-first push notifications for AI coding agents. Source lives at `stations/notify/` in Brigade and installs via `brigade setup`.
 - [Cloche](https://github.com/escoffier-labs/cloche) - agent-neutral app screenshot capture.
 
 ## Dev tools
 
-- [GraphTrail](https://github.com/escoffier-labs/brigade/tree/main/engines/code-graph) - local code-graph CLI and read-only MCP server: callers, callees, impact, and context (`engines/code-graph/` in Brigade; install via `brigade setup`). The archived [graphtrail](https://github.com/escoffier-labs/graphtrail) repo is a frozen mirror.
+- [GraphTrail](https://github.com/escoffier-labs/brigade/tree/main/engines/code-graph) - local code-graph CLI and read-only MCP server: callers, callees, impact, and context. Source lives at `engines/code-graph/` in Brigade and installs via `brigade setup`.
 - [Code Search API](https://github.com/escoffier-labs/code-search-api) - local semantic code search with Ollama embeddings, SQLite, and hybrid search.
 - [Usage Tracker](https://github.com/escoffier-labs/usage-tracker) - token usage and cost analytics for OpenClaw sessions across models.
 - [Mise en Scene](https://github.com/escoffier-labs/mise-en-scene) - turns source material into self-contained interactive HTML/SVG technical explainers.
@@ -37,7 +37,21 @@ Brigade keeps agent loops receipted, reviewed, and portable. The supporting Esco
 
 ## Evidence stack
 
-- [MiseLedger](https://github.com/escoffier-labs/brigade/tree/main/engines/evidence-ledger) - local-first evidence ledger for AI work history (`engines/evidence-ledger/` in Brigade; install via `brigade setup`). Built-in crawlers: `miseledger crawl sessions|files|gitlog|...`. The archived [miseledger](https://github.com/escoffier-labs/miseledger) repo is a frozen mirror. StationTrail and SourceHarvest were absorbed in v0.3.0.
+- [MiseLedger](https://github.com/escoffier-labs/brigade/tree/main/engines/evidence-ledger) - local-first evidence ledger for AI work history. Source lives at `engines/evidence-ledger/` in Brigade and installs via `brigade setup`. Built-in crawlers: `miseledger crawl sessions|files|gitlog|...`.
+
+## Archived repositories
+
+These repositories are read-only. Development moved to the active home shown below.
+
+| Repository | Current home |
+|---|---|
+| [Agent Notify](https://github.com/escoffier-labs/agent-notify) | [Brigade `stations/notify`](https://github.com/escoffier-labs/brigade/tree/main/stations/notify) |
+| [Code Search MCP](https://github.com/escoffier-labs/code-search-mcp) | [Code Search API `mcp/`](https://github.com/escoffier-labs/code-search-api/tree/main/mcp) |
+| [Content Guard](https://github.com/escoffier-labs/content-guard) | [Brigade `guard` and `scrub`](https://github.com/escoffier-labs/brigade) |
+| [GraphTrail](https://github.com/escoffier-labs/graphtrail) | [Brigade `engines/code-graph`](https://github.com/escoffier-labs/brigade/tree/main/engines/code-graph) |
+| [MiseLedger](https://github.com/escoffier-labs/miseledger) | [Brigade `engines/evidence-ledger`](https://github.com/escoffier-labs/brigade/tree/main/engines/evidence-ledger) |
+| [SourceHarvest](https://github.com/escoffier-labs/sourceharvest) | Absorbed into MiseLedger in Brigade v0.3.0 |
+| [StationTrail](https://github.com/escoffier-labs/stationtrail) | Absorbed into MiseLedger in Brigade v0.3.0 |
 
 ## Start here
 
