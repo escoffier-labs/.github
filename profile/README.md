@@ -21,7 +21,6 @@ Much of that work happens through [T3 Code](https://github.com/pingdotgg/t3code)
 - [Token Glace](https://github.com/escoffier-labs/token-glace) - deterministic compaction of terminal output before it reaches the agent. Installs as a BrigadeStack component with `brigade add tokens`. Forked from `vincentkoc/tokenjuice`.
 - [Cloche](https://github.com/escoffier-labs/cloche) - desktop capture for people and agents, with stable JSON output and an optional MCP server.
 - [Skillet](https://github.com/escoffier-labs/skillet) - agent skills for repo audits, bug hunting, security sweeps, publish gates, releases, and memory handoffs.
-- [Memory Doctor](https://github.com/escoffier-labs/memory-doctor) - status, lint, and compaction for Claude Code and OpenClaw memory. Also built into BrigadeStack.
 - [Bootstrap Doctor](https://github.com/escoffier-labs/bootstrap-doctor) - audits and trims oversize OpenClaw bootstrap files before sessions start truncated.
 - [Code Search API](https://github.com/escoffier-labs/code-search-api) - local semantic code search with Ollama embeddings, SQLite, and hybrid search.
 - [Usage Tracker](https://github.com/escoffier-labs/usage-tracker) - session analytics for OpenClaw, Claude Code, and Codex, separating API spend from subscription value.
