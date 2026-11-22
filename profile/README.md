@@ -30,3 +30,11 @@ Much of that work happens through [T3 Code](https://github.com/pingdotgg/t3code)
 ## Start here
 
 Install BrigadeStack with the [getting started guide](https://brigadestack.com/docs/getting-started/install), or see [escoffierlabs.dev](https://escoffierlabs.dev) for the rest of the lab.
+
+## Sister lab
+
+[Lidless Labs](https://github.com/lidless-labs) is an Escoffier Labs project for SOC, network, and homelab tooling: SIEM, IDS, threat intel, and Proxmox tools that AI clients can query.
+
+## Built by
+
+Built and maintained by [Solomon Neas](https://solomonneas.dev).
