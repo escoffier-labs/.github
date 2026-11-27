@@ -25,7 +25,6 @@ Much of that work happens through [T3 Code](https://github.com/pingdotgg/t3code)
 - [Code Search API](https://github.com/escoffier-labs/code-search-api) - local semantic code search with Ollama embeddings, SQLite, and hybrid search.
 - [Usage Tracker](https://github.com/escoffier-labs/usage-tracker) - session analytics for OpenClaw, Claude Code, and Codex, separating API spend from subscription value.
 - [Plating](https://github.com/escoffier-labs/plating) - reproducible, sanitized terminal-demo SVGs for READMEs and websites.
-- [Solos Cookbook](https://github.com/escoffier-labs/solos-cookbook) - how one engineer runs a 24/7 multi-agent stack on bare metal.
 
 ## Start here
 
