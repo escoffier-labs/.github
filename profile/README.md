@@ -23,7 +23,7 @@ Much of that work happens through [T3 Code](https://github.com/pingdotgg/t3code)
 - [Skillet](https://github.com/escoffier-labs/skillet) - agent skills for repo audits, bug hunting, security sweeps, publish gates, releases, and memory handoffs.
 - [Bootstrap Doctor](https://github.com/escoffier-labs/bootstrap-doctor) - audits and trims oversize OpenClaw bootstrap files before sessions start truncated.
 - [Code Search API](https://github.com/escoffier-labs/code-search-api) - local semantic code search with Ollama embeddings, SQLite, and hybrid search.
-- [Usage Tracker](https://github.com/escoffier-labs/usage-tracker) - session analytics for OpenClaw, Claude Code, and Codex, separating API spend from subscription value.
+- [Usage Tracker](https://github.com/escoffier-labs/usage-tracker) - session analytics for Antigravity, Claude Code, Codex, and OpenCode, separating API spend from subscription value.
 - [Plating](https://github.com/escoffier-labs/plating) - reproducible, sanitized terminal-demo SVGs for READMEs and websites.
 
 ## Start here
